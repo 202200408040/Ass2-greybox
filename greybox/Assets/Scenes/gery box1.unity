@@ -1009,8 +1009,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: NewBehaviourScript1, Assembly-CSharp
+      - m_Target: {fileID: 1550860186}
+        m_TargetAssemblyTypeName: Fundation, Assembly-CSharp
         m_MethodName: ResetAll
         m_Mode: 1
         m_Arguments:
