@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/UI entry 1.unity
+    guid: 6e81f2f4f9bb56b4ead00459aeeade4a
+  - enabled: 1
+    path: Assets/Scenes/gery box1.unity
+    guid: 7872260edefeb474db3d8ea9422eb8b4
   m_configObjects: {}
