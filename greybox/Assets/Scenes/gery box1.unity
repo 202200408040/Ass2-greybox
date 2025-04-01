@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4c081645e2d461a40a52c622d698e16e, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4c081645e2d461a40a52c622d698e16e, type: 3}
       propertyPath: m_LocalScale.x
@@ -360,7 +360,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &240007126
 GameObject:
@@ -465,7 +465,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 5f4ed0338a0130e46b21a943ab5e2245, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5f4ed0338a0130e46b21a943ab5e2245, type: 3}
       propertyPath: m_LocalScale.x
@@ -616,7 +616,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4c081645e2d461a40a52c622d698e16e, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4c081645e2d461a40a52c622d698e16e, type: 3}
       propertyPath: m_LocalScale.x
@@ -875,8 +875,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1620984731}
-        m_TargetAssemblyTypeName: NewBehaviourScript1, Assembly-CSharp
+      - m_Target: {fileID: 1550860186}
+        m_TargetAssemblyTypeName: Fundation, Assembly-CSharp
         m_MethodName: ScaleUp
         m_Mode: 1
         m_Arguments:
@@ -1009,7 +1009,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1620984731}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NewBehaviourScript1, Assembly-CSharp
         m_MethodName: ResetAll
         m_Mode: 1
@@ -1143,8 +1143,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1620984731}
-        m_TargetAssemblyTypeName: NewBehaviourScript1, Assembly-CSharp
+      - m_Target: {fileID: 1550860186}
+        m_TargetAssemblyTypeName: Fundation, Assembly-CSharp
         m_MethodName: Rotate
         m_Mode: 1
         m_Arguments:
@@ -1472,7 +1472,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4c081645e2d461a40a52c622d698e16e, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4c081645e2d461a40a52c622d698e16e, type: 3}
       propertyPath: m_LocalScale.x
@@ -1962,8 +1962,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1620984731}
-        m_TargetAssemblyTypeName: NewBehaviourScript1, Assembly-CSharp
+      - m_Target: {fileID: 1550860186}
+        m_TargetAssemblyTypeName: Fundation, Assembly-CSharp
         m_MethodName: ScaleDown
         m_Mode: 1
         m_Arguments:
@@ -2358,7 +2358,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427609498}
   m_CullTransparentMesh: 1
---- !u!1 &1620984730
+--- !u!1 &1550860185
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2366,8 +2366,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1620984732}
-  - component: {fileID: 1620984731}
+  - component: {fileID: 1550860187}
+  - component: {fileID: 1550860186}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -2375,36 +2375,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1620984731
+--- !u!114 &1550860186
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620984730}
+  m_GameObject: {fileID: 1550860185}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f6227068fa619042974dfc654a4331f, type: 3}
+  m_Script: {fileID: 11500000, guid: 61655cd476241134085954265e69af61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   pigTransform: {fileID: 0}
   moveStep: 2
   scaleFactor: 0.2
   rotateSpeed: 30
---- !u!4 &1620984732
+--- !u!4 &1550860187
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1620984730}
+  m_GameObject: {fileID: 1550860185}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 218.76595, y: 153.46652, z: -6.753113}
+  m_LocalPosition: {x: 773.58514, y: 335.15125, z: 581.88196}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1641002848
 GameObject:
@@ -2490,8 +2490,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1620984731}
-        m_TargetAssemblyTypeName: NewBehaviourScript1, Assembly-CSharp
+      - m_Target: {fileID: 1550860186}
+        m_TargetAssemblyTypeName: Fundation, Assembly-CSharp
         m_MethodName: MoveLeft
         m_Mode: 1
         m_Arguments:
@@ -2624,8 +2624,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1620984731}
-        m_TargetAssemblyTypeName: NewBehaviourScript1, Assembly-CSharp
+      - m_Target: {fileID: 1550860186}
+        m_TargetAssemblyTypeName: Fundation, Assembly-CSharp
         m_MethodName: MoveRight
         m_Mode: 1
         m_Arguments:
@@ -2780,7 +2780,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 4c081645e2d461a40a52c622d698e16e, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4c081645e2d461a40a52c622d698e16e, type: 3}
       propertyPath: m_LocalScale.x
